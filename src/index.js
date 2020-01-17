@@ -656,7 +656,7 @@ export default class extends Component {
         key={pages.length}
         style={[styles.wrapperAndroid, this.props.style]}>
         {pages}
-      </ViewPagerAndroid>
+      </ViewPager>
     )
   }
 
